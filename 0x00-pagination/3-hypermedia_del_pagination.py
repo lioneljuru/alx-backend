@@ -14,7 +14,7 @@ class Server:
         """Initializes a new Server instance.
         """
         self.__dataset = None
-        self.__indexed_dataset= None
+        self.__indexed_dataset = None
 
     def dataset(self) -> List[List]:
         """Cached dataset
