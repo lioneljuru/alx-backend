@@ -20,9 +20,9 @@ app.url_map.strict_slashes = False
 babel = Babel(app)
 users = {
     1: {"name": "Balou", "locale": "fr", "timezone": "Europe/Paris"},
-    1: {"name": "Beyonce", "locale": "en", "timezone": "US/Central"},
-    1: {"name": "Spock", "locale": "kg", "timezone": "Vulcan"},
-    1: {"name": "Teletubby", "locale": None, "timezone": "Europe/London"},
+    2: {"name": "Beyonce", "locale": "en", "timezone": "US/Central"},
+    3: {"name": "Spock", "locale": "kg", "timezone": "Vulcan"},
+    4: {"name": "Teletubby", "locale": None, "timezone": "Europe/London"},
 }
 
 
